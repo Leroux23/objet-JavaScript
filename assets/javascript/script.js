@@ -18,10 +18,11 @@ voiture1.marque = "Tesla";
 voiture1.modele = "P100D";
 
 voiture1.calculerEnergieCinetique = function() {
-  if(voiture.masse <=0) {
+  if(voiture1.masse <=0) {
     return false;
   }
   else {
     return 0.5 * voiture1.masse * (voiture1.vitesse ** 2);
   }
 };
+alert(voiture1.calculerEnergieCinetique());
